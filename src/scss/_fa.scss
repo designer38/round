@@ -1,0 +1,15 @@
+body{
+  .fo{
+    text-align: center;
+    button{
+      bottom:100;
+    color:$fontcolor;
+    font-weight: bold;
+      font-size: 16px;
+      padding:10px;
+      border:none;
+    background-color:$rare;
+      width:160px;
+    }
+  }
+}

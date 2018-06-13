@@ -1,0 +1,17 @@
+body{
+  .share{
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-image:linear-gradient(rgba(255, 255,255,0.5 ), rgba( 255, 255,255,0.5) ), url("administration-adult-blur-6093.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+width:100%;
+height: 70vh;
+padding-top: 200px;
+div{
+  padding-bottom: 150px;
+}
+  }
+}

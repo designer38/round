@@ -1,0 +1,34 @@
+$fontcolor:white;
+body{
+  margin: 0 auto;
+  header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("blackboard-business-chalkboard-355988.jpg");
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    color:$fontcolor;
+    background-attachment: fixed;
+    section{
+    padding-bottom: 50px;
+    padding-top:50px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    text-align: center;
+    background-attachment: fixed;
+  }
+  h1{
+    font-size: 70px;
+  }
+    button{
+      bottom:100;
+color:$fontcolor;
+font-weight: bold;
+      font-size: 16px;
+      padding:10px;
+      border-color: $fontcolor;
+background-color: Transparent;
+      width:160px;
+    }
+  }
+}

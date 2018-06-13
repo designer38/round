@@ -1,0 +1,27 @@
+$fontcolor:white;
+$rare:#55b4d4;
+body{
+#discount{
+background-image: linear-gradient(rgba(255, 255,255,0.5 ), rgba( 255, 255,255,0.5) ),url("art-color-colourful-207665.jpg");
+background-size: cover;
+width:100%;
+height:60vh;
+padding-bottom: 50px;
+padding-top: 50px;
+display:grid;
+grid-template-columns:1fr;
+grid-template-rows: 3fr;
+text-align: center;
+background-attachment: fixed;
+button{
+  bottom:100;
+color:$fontcolor;
+font-weight: bold;
+  font-size: 16px;
+  padding:10px;
+  border:none;
+background-color:$rare;
+  width:160px;
+}
+}
+}
